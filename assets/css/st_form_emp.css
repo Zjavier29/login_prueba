@@ -1,0 +1,169 @@
+body{
+	font-family:'Poppins', sans-serif;
+}
+h1{ text-align: center;
+ }
+.Contenedor{
+	position: relative;
+	border-radius: 6px;
+	left: 27%;
+	width: 600px;
+	height: 310px;
+	/*background-image: 
+	linear-gradient(to top,#0B2BF9,#63B2EB);*/
+background-image: linear-gradient(#093784, #1583F5);
+}
+.Contenedor2{
+	position: relative;
+	border-radius: 6px;
+	left: 27%;
+	width: 600px;
+	height: 490px;
+	background-image: 
+	linear-gradient(to top,#093784,#1583F5);
+
+}
+.inf_1,.inf_2,.inf_3{
+	position: relative;
+	top :8%;
+	left: 5%;
+	border-radius: 16px;
+	width: 550px;
+	height: 110px;
+	background-image: linear-gradient(#3CB9FB, #219FE2);
+}
+label{
+	position: 	absolute;		
+	margin: 	5px;				
+	margin: 20px 30px;
+	color: 	#fff;
+		
+}
+.nm{
+	top: 19%;
+}
+.dr{
+	top:33%;
+}
+.tl{
+	top:47%; 	
+}
+.ce{
+	top:61%;
+}
+.rp{
+	top: 5%; 
+	left:3%; 		
+}
+.info1{
+	margin: 5px 30px;
+	top:0%;
+	color:#060101;
+}
+.np,.emp,.tp{
+	top:16%;
+}
+.ap,.em2{
+	top:51%;	
+}
+.np,.emp,.tp,.ap,.em2{
+	font-size: 	14px;
+	
+}
+.info2{
+margin: 5px 30px;
+	top:0%;	
+	color:#060101;
+}
+.info3{
+	color:#060101;
+margin: 5px 30px;
+	top:0%;	
+}
+input[type="text"]{
+position: relative;		;
+	outline: none; /* */
+	left: 35px;
+	padding: 5px; /* */
+	display: block; /* */
+	width: 217px; 
+	height: 25px;
+	border-radius: 3px; /* */
+	border: 1px solid #eee; /* */
+	margin: 6px auto; /* */
+	font-family:'Poppins', sans-serif; 
+
+}
+input[type="text"].in_c1{
+	top: 10%;
+}
+input[type="text"].in_c2{
+	top: 30%;
+	width: 210px; 
+	height: 20px;
+}
+input[type="text"].in_c2_a{
+	top: 8%;
+}
+select{
+	position: relative;
+	font-family:'Poppins', sans-serif; 
+	margin: 7px 7px;
+	left: 35.4%;
+	padding: 5px 5px;
+	display: block; /* */
+	width: 230px; 
+	height: 35px;
+	border-radius: 3px;
+	display: block;
+}
+button{
+	position: absolute;
+	top: 82%;
+	left: 153px;
+	padding: 10px;
+	color: #fff;
+	background: #0098cb;
+	width:217px;
+	margin: 20px auto;
+	margin-top: 0;
+	border: 0;
+	border-radius: 3px;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif; 
+}
+
+button:hover {
+	background-color: #229BFE; 
+}
+.buscar{
+    top: 7.5%;
+	left: 80%;
+	padding: 10px;
+	background:#C0C2C1;
+	color:#060101;
+	width: 70px;	
+}
+.guardar1{
+	top:82%;
+	left:37.5%;
+	 		
+}
+.guardar2{
+	top:90%;
+	left:60%;
+	background:#C0C2C1;
+	color:#060101;	 	 		
+}
+button.guardar2:hover,button.buscar:hover{
+	background-color: #D2CFCF;
+}
+.spe1{
+	top: 2%;
+}
+.spe{
+	top: 30%;
+	left: 34.7%;
+	width: 224px; 
+	height: 30px;
+}

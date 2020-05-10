@@ -1,0 +1,57 @@
+
+.Contenedor{
+	position: relative;
+	width: 500px;
+	height: 400px;
+	background:#ffff ;
+
+
+
+}
+.generales,.especificos{
+	margin: 30px 30px;
+
+}
+.generales{
+
+	position: absolute;
+	top: 0%;
+	background: #ffff;
+	width: 200px;
+	height: 150px;
+}
+.especificos{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	background: #ffff;
+	width: 200px;
+	height: 150px;
+}
+button{
+border: 0;
+	padding: 10px;
+	cursor: pointer;
+	color: #ffff;
+	font-family: 'Poppins', sans-serif; 
+width: 170px;
+border-radius: 3px;
+display: block;
+margin: 3px 3px;
+}
+.amarillo{
+	background: #FFD733;
+}
+.azul{
+	background: #0098cb;
+}
+button.azul:hover {
+	background-color: #229BFE; 
+}
+button.amarillo:hover {
+	background: #F7F448;
+}
+.spe{
+	width: 172px;
+	padding: 2px 2px;
+}

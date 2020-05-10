@@ -1,0 +1,115 @@
+/* Barra*/
+.barra {
+    position:relative;   
+	width: 100%;
+	background: #0E58D9;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+.barra li {
+	display: inline-block;
+   
+}
+.barra li a.f{
+	position: absolute ;
+    top:0;    
+	right:0;
+	padding:30px 20px;  /* Importante que siempre este ahi*/
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.barra li a.aa {
+
+    padding:30px 30px;  /* Importante que siempre este ahi*/
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.barra li a.aa:hover{
+	background: #055FFB;
+}
+
+.barra li a.f:hover{
+	background: #055FFB;
+}
+.sub{
+	display: none;
+}
+.icon{
+    position: absolute ;
+    top:14%;    
+    right:0;
+    width: 60px;
+    height: 60px;
+    display: none;
+}
+.icon img{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .icon img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+/* Barra*/
+@media (max-width: 800px){
+	.barra {
+        position:   relative;   
+	width: 100%;
+
+	background: #0E58D9;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.barra li a.aa,.barra li a.f{
+
+    padding:30px 30px;  /* Importante que siempre este ahi*/
+    
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.barra li a.f{
+	display: none;
+	padding:16px 16px;
+	background: #0E58D9;
+	top:98% ;
+
+}
+.aa{
+    position:   relative;   
+    top:   0; 
+   
+}
+
+
+.icon{
+	display: inline;
+}
+.sub{
+	position: absolute;
+	display: block;
+	margin: 0; 
+	background: #FF5733;
+}
+
+
+}
+
+
+

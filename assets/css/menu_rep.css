@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700');
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1,h2{
+	 font-weight: normal;
+	
+}
+h1{
+	text-align:center;	 
+	margin: 0;	
+}
+h1.h_op{
+	text-align: left;	
+					
+}
+h2{
+	margin: 0;
+	font-size: 20px;
+	text-align: center;
+}
+.contenedor{
+    position: relative;
+    margin:  0px 15%;
+	width: 70%;
+	height: 400px;
+}
+.item{
+	width: 100%;
+	height: 300px;
+}
+/* Cajas de Opciones*/
+
+div.opc{
+	border: 0;
+	border-radius: 7px;
+	margin: 0px 0px;
+	width: 300px;
+	height: 160px;
+	overflow: hidden;
+}
+.opc img{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .opc img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+.opciones{
+	position: absolute;
+	top: 30px;
+	right: 12%;
+	background-image: 
+	linear-gradient(to top,#0B2BF9,#7A4FD2);
+}
+.opciones_1{
+    position: absolute;
+    left: 12%;
+	background-image: 
+	linear-gradient(to top,#0B2BF9,#63B2EB);
+}
+.opciones_2{
+	position: absolute;
+	top: 230px;
+	right: 12%;
+	background-image: 
+	linear-gradient(to top,#0B2BF9,#7A4FD2);
+}
+.opciones_3{
+    position: absolute;
+    top: 230px;
+    left: 12%;
+	background-image: 
+	linear-gradient(to top,#0B2BF9,#63B2EB);
+}
+a.r{
+	border: 0;
+	border-radius: 3px;
+	padding: 8px 30px;
+	position: absolute;
+	height: 18px;
+	width: 90px;
+	top: 66%;
+	left: 24%;
+	text-decoration: none;
+	text-align:center;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+.mr{
+background: #9004DA;
+}
+.az{
+background: #044EEF;
+}
+.mr:hover{
+	background: #AD18FB;
+}
+.az:hover{
+	background: #105BFE;
+}
+.h_op{
+	position:absolute	;	
+top:20%;
+left:10%; 	
+font-size: 20px;
+color: #fff;
+font-family: 'Poppins', sans-serif;
+
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  display: block;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 240px;
+  height: 240px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.im{
+	margin: 0 10%;
+	width: 175px;
+	display: block;
+	height: 30px;
+}
+.sm{
+	margin: 0 10%;
+	width: 179px;
+	padding: 5px;
+}
+.btn_mod{
+	margin: 30px 12%;
+	background: #2333F7;
+
+}
+@media (max-width: 800px){
+.contenedor {
+    position: 	relative;	
+    margin: 0px 0px;
+    padding: 	3px 3px;
+    top: 0px;
+    width: 100%;
+    height: 100%;	
+    background: #fff;
+}
+div.opc{
+	position: 	relative;		
+	top: 	0;
+	left: 	4%;
+margin: 6px 6px; 	
+	display:block;
+	border: 0;
+	border-radius: 7px;
+	width: 300px;
+	height: 150px;
+	overflow: hidden;
+}
+.items{
+	display: flex;
+	overflow-x: auto;
+	width: 100%;
+	height: 300px;
+	background: #fff;
+}
+.items::-webkit-scrollbar{
+	display: none;
+}
+
+.items .item{
+	position: relative;
+	min-width:280px;
+	height:170px;
+	background: #D8D6D6;
+	margin: 10px; 
+	border-radius: 7px;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 180px;
+}
+}
+
+
+@media (max-width: 1024px){
+.contenedor {
+    position: 	relative;	
+    margin: 0px 0px;
+    padding: 	3px 3px;
+    top: 0px;
+    width: 100%;
+    height: 100%;	
+    background: #fff;
+}
+div.opc{
+	position: 	relative;		
+	top: 	0;
+	left: 	4%;
+    margin: 6px 6px; 	
+	display: inline-block;
+	border: 0;
+	border-radius: 7px;
+	width: 300px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.items{
+	display: flex;
+	overflow-x: auto;
+	width: 96%;
+	height: 300px;
+	background: #fff;
+}
+.items::-webkit-scrollbar{
+	display: none;
+}
+.items .item{
+	position: relative;
+	min-width:280px;
+	height:170px;
+	background: #D8D6D6;
+	margin: 10px; 
+	border-radius: 7px;
+}
+
+}
+
+
+
+

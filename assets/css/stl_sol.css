@@ -1,0 +1,97 @@
+.Contenedor{
+	position: relative;
+
+	border-radius: 4px;
+	left: 27%;
+	width: 600px;
+	height: 470px;
+	background-image: 
+	linear-gradient(to top,#0B2BF9,#7A4FD2);
+	box-shadow: 0 12px 30px 0 rgba(86, 163, 222, 3);
+}
+h1 {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 33px;
+}
+label{
+	position: relative;
+	top:8%;
+display: block;
+ margin: 30px 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #fff;
+
+}
+textarea{
+position: absolute;
+top: 38%;
+left: 65px;	
+display: block;
+width: 430px;
+padding: 9px 9px;
+height: 189px;
+margin: 8px 6px;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+resize: none;
+}
+input[type="text"].oc{
+	display: none;
+}
+input[type="text"]{
+position: absolute;
+top: 5%;
+	outline: none; /* */
+	left: 30%;
+	padding: 5px; /* */
+	display: block; /* */
+	width: 217px; 
+	height: 25px;
+	border-radius: 3px; /* */
+	border: 1px solid #eee; /* */
+	margin: 6px auto; /* */
+	font-family:'Poppins', sans-serif; 
+
+}
+select{
+	position: absolute;
+	top: 18%;
+	font-family:'Poppins', sans-serif; 
+	margin: 7px 7px;
+	left: 29%;
+	padding: 5px 5px;
+	display: block; /* */
+	width: 228px; 
+	height: 35px;
+	border-radius: 3px;
+	display: block;
+}
+button{
+	position: absolute;
+	padding: 10px;
+	color: #fff;
+	background: #0B88F0;
+	width: 300px;
+	margin: 30px 20px;
+	margin-top: 6px;
+	border: 0;
+	border-radius: 3px;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+button:hover {
+	background-color: #229BFE; 
+}
+.env{
+	position: absolute;
+	top: 85%;
+	left: 20%;
+}
+.gen{
+	position: absolute;
+	top: 28%;
+	left: 20%;
+}

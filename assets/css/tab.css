@@ -1,0 +1,85 @@
+.cont{
+	
+	width: 500px;
+	background: #D5B90D;
+}
+.reg1{
+	background: #fff;
+	text-align: center;
+	width: 200px;
+	border-collapse: collapse;
+}
+.td{
+	background: #fff;
+	text-align: center;
+	width: 730px;
+	border-collapse: collapse;
+}
+table{
+	background: #fff;
+	text-align: center;
+	width: 810px;
+	border-collapse: collapse;
+}
+td,td.reg{
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	border:solid 1px #88BADC;
+	padding: 10px 10px;
+	
+}
+.reg:hover{
+	background: #32A0E3;
+	color: #fff;
+	
+}
+.enc{
+	background: #137EC0;
+	 color: #fff;
+	
+}
+.ev{
+	background: #E3B20A;
+	padding: 2px;
+	width: 70px;
+	border: 0;
+	border-radius: 3px;
+	cursor: pointer;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+
+.ev:hover{
+	background: #F6CB37;
+}
+
+#Modal{
+	background: #bc651a;
+}
+.modal{
+	position: fixed;
+	top: -100vh;
+	left: 0;
+	z-index: 999999999;
+	background: rgba(0,0,0,0.75);
+	width: 100vh;
+	opacity: 0;
+	transition: opacity 0.35s ease;
+}
+@media (max-width: 800px){
+h1{
+	font-size: 25px;
+	text-align: center;
+}
+	.cont {
+    width: 100%;
+    background: #D5B90D;
+}
+
+table {
+    background: #fff;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+}
