@@ -6,48 +6,53 @@
 	<script type="text/javascript" src="funciones.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	
+	
 </head>
-<body>
-	<?php 
-require 'partials/barra.php';
-	 ?>
-	 <h1 align="center">Menú CFT</h1>
+<body >
+	<div class="bar" id="barra">
+		<object type="text/html" data="barra.html" width="100%">
+        </object>
+        
+	</div>
+ <h1 class="tit">Menú CFT</h1>
 	<div class="contenedor">
 	
 <div class=" opc opciones">
 	 <h1 class="h_op">Asignacion de Alumnos</h1>
 	<img src="imagenes/item3.jpg">
-	<a class="r az" href="asign_alumno.php">Ir</a>
+	<a class="r az">Ir</a>
 </div>
 
 <div class=" opc opciones_1">
 	 <h1 class="h_op">Alumnos</h1>
 	<img src="imagenes/item2.jpg">
-	<a class="r mr" href="agregar_alumnos.php">Ir</a>
+	<a class="r mr">Ir</a>
 </div>
 
 <div class=" opc opciones_2">
 	 <h1 class="h_op">Profesor Supervisor</h1>
 	<img src="imagenes/psup.jpg">
-	<a class="r az" href="form_psup.php">Ir</a>
+	<a class="r az">Ir</a>
 </div>
 
 <div class=" opc opciones_3">
 	<h1 class="h_op">Empresas</h1>
 	<img src="imagenes/emp.jpg">
-	<a class="r mr" href="form_emp.php">Ir</a>
+	<a class="r mr" >Ir</a>
 </div>
 
 <div class=" opc opciones_4">
 	 <h1 class="h_op">Reportes</h1>
 	<img src="imagenes/rep.jpg">
-	<a class="r az" href="Reportes_CFT.php">Ir</a>
+	<a class="r az" >Ir</a>
 </div>
 
 <div class=" opc opciones_5">
 	 <h1 class="h_op">Solicitudes</h1>
 	<img src="imagenes/sol.jpg">
-	<a class="r mr" href="Solicitudes_cft.php">Ir</a>
+	<a class="r mr" >Ir</a>
 </div>
 
 </div>
@@ -55,6 +60,12 @@ require 'partials/barra.php';
 </body>
 </html>
 <script type="text/javascript">
+
+
+$( document ).ready(function() {
+  
+});
+	  
 	$('#btn_ir_a').click(function(){
 		ir_a_menuCFT();
 	});
