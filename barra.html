@@ -4,6 +4,7 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="assets/css/stl.css">
 		<script src="jquery-3.2.1.min.js"></script>
+        <script src="funciones.js"></script>
 	<meta name="viewport" content="width=device-width,user-scalable=no">
 </head>
 <body id="bod">
@@ -12,7 +13,7 @@
 	<ul class="barra">
 		
         <li><a id="btn_ir_a" class="aa">Inicio</a></li>
-       <li><a id="hidd" class="f" href="fn_sesion.php">Cerrar Sesion</a></li>
+       <li><a id="hidd" class="f">Cerrar Sesion</a></li>
         <div id="icon_list" class="icon ">
         	<img src="imagenes/list.png">
         </div>
@@ -32,5 +33,9 @@
         	contador =0;
         }      
     }
+
+    $('#hidd').click(function(){
+alert("fff");   
+    });
 	});
 </script>

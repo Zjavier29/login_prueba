@@ -44,7 +44,8 @@ function limpiar(...elementos){
 
 
 function ir_a_menuCFT(){
-	window.location="menu_CFT.php";
+	//window.location="menu_CFT.php";
+	alert("Hola");
 
 }
 function get_fecha(){

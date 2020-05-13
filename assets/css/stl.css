@@ -1,6 +1,8 @@
 /* Barra*/
 .barra {
-    position:relative;   
+    position:absolute;  
+    top: 0;
+    left: 0; 
 	width: 100%;
 	background: #0E58D9;
 	list-style: none;
@@ -10,6 +12,7 @@
 }
 .barra li {
 	display: inline-block;
+
    
 }
 .barra li a.f{
@@ -84,29 +87,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
-.barra li a.f{
-	display: none;
-	padding:16px 16px;
-	background: #0E58D9;
-	top:98% ;
 
-}
-.aa{
-    position:   relative;   
-    top:   0; 
-   
-}
-
-
-.icon{
-	display: inline;
-}
-.sub{
-	position: absolute;
-	display: block;
-	margin: 0; 
-	background: #FF5733;
-}
 
 
 }
